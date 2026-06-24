@@ -7,7 +7,7 @@
 На эндпоинт "/ai/tasks" отправляется DTO TaskRequest(taskTitle,
 taskDescription).
 
-## Тестовый запрос:
+### Тестовый запрос:
 
 ```text
 Отправь POST запрос на http://localhost:8090/ai/tasks с JSON телом, где
@@ -17,7 +17,7 @@ Boot и базы данных". Выведи ответ в консоль.
 
 ```
 
-## Ответ:
+### Ответ:
 
 ```json
  {
