@@ -34,6 +34,7 @@ public class TaskController {
     }
 
 
+    //-> Простой запрос из Postman - проверка работы приложения
     @PostMapping("/ai/task-test")
     public TaskEntity saveTask(@RequestBody TaskRequest request) {
         return taskService.save(request);
